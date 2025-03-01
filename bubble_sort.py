@@ -8,8 +8,8 @@ def bubble_sort(dataset: list[int]) -> list[int]:
     for i in range(len(dataset)-1, 0, -1):
         swapped = False
         for j in range(i):
-            if dataset[j] > dataset[j+1]:
-                dataset[j], dataset[j+1] = dataset[j+1], dataset[j]
+            if dataset[j] > dataset[j + 1]:
+                dataset[j], dataset[j + 1] = dataset[j+1], dataset[j]
                 swapped = True
         # no swaps means sorted       
         if not swapped:
