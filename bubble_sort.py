@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 # Time complexity: O(n^2)
-def bubble_sort(dataset):
+def bubble_sort(dataset: list[int]) -> list[int]:
     if len(dataset) <= 1:
         return dataset
 
